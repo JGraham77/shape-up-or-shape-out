@@ -1,0 +1,76 @@
+.input-group>.custom-file,
+.input-group>.custom-select,
+.input-group>.form-control {
+    width: 5.1rem;
+}
+
+#drawingBoard {
+    width: 40.675rem;
+    height: 40.675rem;
+    margin-right: 1.15rem;
+    background-color: lightgray;
+    border-radius: 0.250rem;
+}
+
+#shapeInformation {
+    width: 21.425rem;
+    height: 18.917235rem;
+}
+
+.shape-information-header {
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #ffffff;
+}
+
+.shape-information-label {
+    font-weight: 500;
+    font-size: 1.0625rem;
+    color: #343a40;
+}
+
+.shape-information-value {
+    font-weight: 400;
+    font-size: 1.03125rem;
+    color: #6c757d;
+}
+
+.shape {
+    position: absolute;
+}
+
+.shape,
+#Rectangle,
+#Square,
+#Circle,
+#Triangle {
+    opacity: 0.600;
+}
+
+.shape:hover,
+#Rectangle:hover,
+#Square:hover,
+#Circle:hover,
+#Triangle:hover {
+    cursor: pointer;
+    opacity: 0.850;
+}
+
+#Rectangle,
+#Square {
+    border-radius: 0.125rem;
+}
+
+#Circle {
+    border-radius: 50%;
+}
+
+#Triangle {
+    width: 0;
+    height: 0;
+    border-bottom-style: solid;
+    border-bottom-right-radius: 0.125rem;
+    border-right-style: solid;
+    border-right-color: transparent;
+    border-top-left-radius: 0.125rem;
+}
